@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'iransans';
+    src: url('../font/Sans\ a4fran3.woff')format('woff'),url('../font/Sans\ a4fran3.ttf')format('ttf'),url('../font/IRANSans.woff2')format('woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    font-family: 'iransans';
+    background-color:  rgb(0, 0, 0,.02);
+}
+#announcment{
+    width: 100%;
+    background-color:gainsboro;
+    padding: 5px 0;
+}
+.div-announcment{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-announcment img{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 7px;
+}
+.p-title-announcment {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    background-color: gainsboro;
+}
+
+/* about us*/
+.footer-end{
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+#footer-title{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.footer-end p{
+    color: black;
+    text-align: right;
+    font-size: 14px;
+    line-height: 35px;
+}
+.footer-end p a{
+    color: black;
+}
+.footer-end p a:hover{
+    color: #d60505;
+}
+/* finish */
+
+/* logo footer */
+.socialmedia{
+    height: 150px;
+    margin-top: 20px;
+}
+#logofooter{
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-bottom: 10px;
+}
+#logofooter img{
+    width: 100%;
+    height: 100%;
+}
+#dlogofooter{
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-left: 5px;
+    padding-bottom: 20px;
+}
+#plogofooter{
+    font-size: 50px;
+    padding: 5px;
+    font-weight: bolder;
+    color:#d60505;
+}
+.logo-socialmedia{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    border: 1px solid gray;
+    overflow: hidden;
+    padding: 15px;
+    transition: .5s;
+}
+.logo-socialmedia:hover{
+    background-color: silver;
+    transition: .5s;
+}
+#logotwitter{
+    margin-left: 30px;
+    clear: both;
+}
+/* finish */
+
+/* three table */
+.table{
+    height: 220px;
+}
+.p-table{
+    height: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    color:black;
+}
+#th-table1{
+    font-size: 16px;
+    color: #d60505;
+}
+#th-table2{
+    font-size: 16px;
+    color: #d60505;
+}
+#th-table3{
+    font-size: 16px;
+    color: #d60505;
+}
+.p-table a{
+    color: black;
+}
+.p-table a:hover{
+    color:#d60505;
+}
+/* finish */
+
+/* send email */
+.div-news{
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.div-news h3{
+    text-align: right;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color:black;
+}
+#em{
+    height: 40px;
+    color: black;
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+#em::placeholder{
+    text-align: right;
+    font-size: 12px;
+    font-family: 'iransans';
+} 
+#btn-news{
+    height: 40px;
+    padding: 5px 15px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'iransans';
+}
+/* finish */
+
+/* copyright */
+.copyright{
+    width: 100%;
+    padding: 15px 0;
+    background-color: gainsboro;   
+}
+.copy{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.copy1{
+    font-size: 14px;
+    color: darkgray;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.copy2{
+    font-size: 14px;
+    color: darkgray;
+    padding-left: 15px;
+    padding-right: 15px;
+    direction: ltr;
+}
+
+
+@media(max-width:992px){
+    .p-title-announcment{
+        font-size: 9px;
+    }
+    #footer-title{
+        font-size: 13px;
+    }
+    .footer-end p{
+        font-size: 12px;
+    }
+    #th-table1 , #th-table2 , #th-table3{
+        font-size: 15px;
+    }
+    .p-table{
+        font-size: 12px;
+    }
+    .socialmedia{
+        margin-top: 50px;
+    }
+    .copy1{
+        font-size: 11px;
+    }
+    .copy2{
+        font-size: 11px;
+    }
+}

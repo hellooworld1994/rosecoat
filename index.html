@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rosecoat</title>
+    <link rel="stylesheet" href="css/msi.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+            
+                <div id="mySidepanel" class="sidepanel">  
+                    <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</div>
+
+                    <div id="login-respon" onclick="btnlog()">
+                        <a href="html/login.html">ورود / ثبت نام </a>
+                    </div>
+
+                    <a href="#">
+                        <div class="another-respon">
+                            <p class="pheader"><i class="fa-solid fa-house"></i> صفحه اصلی</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="another-respon">
+                            <p class="pheader"><i class="fa-solid fa-cart-shopping"></i> محصولات</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="another-respon">
+                            <p class="pheader"><i class="fa-solid fa-pen"></i> بلاگ</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="another-respon">
+                            <p class="pheader"><i class="fa-regular fa-address-card"></i> درباره ما</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="another-respon">
+                            <p class="pheader"><i class="fa-solid fa-phone"></i> تماس با ما</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="hamburger-icon" onclick="openNav()">
+                    <img src="pic/list-columns.svg" alt="">
+                </div>
+
+                <div class="logo">
+                    <h2 id="namesite" title="rosecoat.ir">rose<span><img src="pic/rose.svg" alt="" id="logoheader"></span>coat</h2>
+                </div>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-solid fa-house"></i> صفحه اصلی</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-solid fa-cart-shopping"></i> محصولات</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-solid fa-pen"></i> بلاگ</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-regular fa-address-card"></i> درباره ما</a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-solid fa-phone"></i> تماس با ما </a></li>
+                </ul>
+
+                <div id="login"  onclick="btnlog()">
+                    <a href="html/login.html">ورود / ثبت نام </a>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+ 
+    <div id="chatbot">
+        <a href="#">
+            <img src="pic/chat.png" alt="">
+        </a>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="pic/mainback.png" class="mainpic">
+            <!-- <div class="text-mainpic" id="text1">caption one</div> -->
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="pic/mainback2.jpg" class="mainpic">
+            <!-- <div class="text-mainpic" id="text2">caption two</div> -->
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="pic/mainback.png" class="mainpic">
+            <!-- <div class="text-mainpic" id="text3">Caption Three</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <img src="pic/mainback2.jpg" class="mainpic">
+            <!-- <div class="text-mainpic" id="text4">Caption four</div> -->
+        </div>
+        
+        <a class="prev" onclick="plusSlides(1)">❯</a>
+        <a class="next" onclick="plusSlides(-1)">❮</a>
+
+    </div>
+
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="div-introdution">
+                        <img src="pic/pro10.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <div id="content2-title">
+        <p id="p-content2-title">دیگر محصولات</p>
+    </div>
+
+    <section class="content2">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="div-introduction2">
+                        <img src="pic/Belt.jpg" alt="">
+                        <div class="text-content2">کمربند</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="div-introduction2">
+                        <img src="pic/coat.jpg" alt="">
+                        <div class="text-content2">کت تک</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="div-introduction2">
+                        <img src="pic/Pants.jpg" alt="">
+                        <div class="text-content2">شلوار</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="div-introduction2">
+                        <img src="pic/women's top.jpg" alt="">
+                        <div class="text-content2">تاپ</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="div-introduction2">
+                        <img src="pic/shirt.jpg" alt="">
+                        <div class="text-content2">پیراهن</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="div-introduction2">
+                        <img src="pic/vest.jpg" alt="">
+                        <div class="text-content2">جلیقه</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="blog-title">
+        <p id="p-blog-title">رزکت بلاگ</p>
+    </div>
+
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-4">
+                    <div class="blog1">
+                        <img src="pic/blog1.jpg" alt="">
+                        <div class="text-blog">انواع پارچه و نحوه شستشوی آنها</div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="blog1">
+                        <img src="pic/blog2.jpg" alt="">
+                        <div class="text-blog">روش های نگهداری اصولی از کت و شلوار</div>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-md-4">
+                    <div class="blog1">
+                        <img src="pic/blog3.jpg" alt="">
+                        <div class="text-blog">مناسب ترین مدل با توجه به سایز</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="bestselling-title">
+        <p id="p-bestselling-title">پرفروش ترین محصولات</p>
+    </div>
+
+    <section class="bestselling">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="div-introdution-bestselling">
+                        <img src="pic/pro1.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="div-introdution-bestselling">
+                        <img src="pic/pro1.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6  col-xl-3">
+                    <div class="div-introdution-bestselling">
+                        <img src="pic/pro1.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+            
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="div-introdution-bestselling">
+                        <img src="pic/pro1.jpg" alt="">
+                        <h3 class="title-pro">عنوان محصول</h3>
+                        <p class="p-title">کت و شلوار مدل... <br>جنس ژرژت فرانسوی </p><br>
+                        <p class="price">$5.450.000</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="container">
+            <div class="row">
+
+                <div class="p-about-us col-12 col-md-6">
+                    <h3>این شروع داستان ماست</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, numquam. Et enim repellat placeat quidem reprehenderit quas,
+                        ipsam exercitationem similique praesentium sunt consectetur modi
+                        architecto error dolor recusandae illum. Nesciunt.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, numquam. Et enim repellat placeat quidem reprehenderit quas,
+                        ipsam exercitationem similique praesentium sunt consectetur modi
+                        architecto error dolor recusandae illum. Nesciunt.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Porro, numquam. Et enim repellat placeat quidem reprehenderit quas,
+                        ipsam exercitationem similique praesentium sunt consectetur modi
+                        architecto error dolor recusandae illum. Nesciunt.
+                    </p>
+                </div>
+                
+                <div class="vector col-12 col-md-6">
+                    <img src="pic/vector.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="announcment">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-3 col-sm-3">
+                    <div class="div-announcment">
+                        <img src="pic/announcment.svg" alt="">
+                        <p class="p-title-announcment">ارسال به سراسر کشور</p>
+                    </div>
+                </div>
+
+                <div class="col-3 col-sm-3">
+                    <div class="div-announcment">
+                        <img src="pic/announcment.svg" alt="">
+                        <p class="p-title-announcment">پرداخت آنلاین و ایمن</p>
+                    </div>
+                </div>
+
+                <div class="col-3 col-sm-3">
+                    <div class="div-announcment">
+                        <img src="pic/announcment.svg" alt="">
+                        <p class="p-title-announcment"> 7روز هفته-24ساعته </p>
+                    </div>
+                </div>
+
+                <div class="col-3 col-sm-3">
+                    <div class="div-announcment">
+                        <img src="pic/announcment.svg" alt="">
+                        <p class="p-title-announcment">تضمین کیفیت </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-end col-12 col-sm-12 col-md-6 col-xl-6">
+                    <p id="footer-title">بهترین دوخت بهترین کیفیت</p>
+                    <p>رزکت در سال 1401 کارخود را به صورت تخصصی در زمینه دوخت کت و شلوار زنانه آغاز کرد. در این سال ها رزکت با 
+                        تکیه بر متخصیصن و دانش مدلینگ توانسته است تجربه ای خوب از خرید آنلاین کت وشلوار زنانه با کیفیتی بالاتر را برای  مخاطبان خود رقم بزند. مهمترین رسالت رزکت 
+                        دوخت بهترین لباس با قیمتی مناسب و همچنین مد روز است و رضایت اکثریت مخاطبان این مرجع فروش اینترنتی گواهی بر این ادعاست رضایتی که پشتوانه ای استوار برای
+                        دیگر اهداف بلند مدت رزکت است. <a href="#"> بیشتر بخوانید</a><br>
+                    </p>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+                    <div class="socialmedia">
+                        <div id="logofooter">
+                            <img src="pic/rose.svg" alt="rosecoat" title="rosecoat">
+                        </div>
+                        
+                        <div id="dlogofooter">
+                            <p id="plogofooter">&#8475;&#8500;&#119982;&#8495;&#119992;&#8500;&#119990;&#120009;</p>
+                        </div>
+
+                        <a href="#">
+                            <div id="logotwitter"  class="logo-socialmedia" title="Twitter">
+                                <img src="pic/logotwitter.svg" alt="">
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="logo-socialmedia" title="rubika">
+                                <img src="pic/rubica.svg" alt="" >
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="logo-socialmedia"  title="Telegram">
+                                <img src="pic/logotelegram.svg" alt="">
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="logo-socialmedia" title="Instagram">
+                                <img src="pic/logoinsta.svg" alt="" >
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="table col-12 col-sm-4 col-xl-3" id="table1">
+                    <p class="p-table" id="th-table1"> رزکت</p>
+                    <p class="p-table"><a href="#">قوانین و حریم خصوصی</a></p>
+                    <p class="p-table"><a href="#">پیگیری سفارشات</a></p>
+                    <p class="p-table"><a href="#">پرسش های متدوال</a></p>
+                </div>
+
+                <div class="table col-12 col-sm-4 col-xl-3" id="table2">
+                    <p class="p-table" id="th-table2">راهنمای خرید</p>
+                    <p class="p-table"><a href="#">راهنمای ثبت سفارش </a></p>
+                    <p class="p-table"><a href="#">راهنمای پرداخت</a></p>
+                    <p class="p-table"><a href="#">راهنمای ارسال محصول</a></p>
+                </div>
+
+                <div class="table col-12 col-sm-4 col-xl-3" id="table3">
+                    <p class="p-table" id="th-table3">&#9742; ارتباط با رزکت</p>
+                    <p class="p-table">تلفن: <a href="#"> 001100- 021 </a></p>
+                    <p class="p-table">واحد فروش:<a href="#"> 09125557525</a></p>
+                    <p class="p-table">ایمیل: <a href="#"> rosecoat@gmail.com </a></p>
+                </div>
+
+                <div class="col-12 col-md-12 col-xl-3">
+                    <div class="div-news">
+                        <h3>عضویت در خبرنامه</h3>
+                        <form action="#">
+                            <input type="email" name="em" id="em" placeholder="لطفا ایمیل خود را وارد کنید" autocomplete="off">
+                            <button id="btn-news">ثبت</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <hr>
+
+    <section class="copyright">
+        <div class="container">
+            <div class="row">
+
+                <div class="copy">
+                    <div class="copy1">
+                        <p>تمامی حقوق این وب سایت متعلق به رزکت می باشد</p>
+                    </div>
+
+                    <div class="copy2">
+                        <p>&#169; 2023 rosecoat Inc. All rights reserved.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/jscode.js"></script>
+</body>
+</html>
